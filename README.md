@@ -4,6 +4,36 @@ Latest Cypress Learning 2022
 Learning Objectives:
 
 - How to install?
+
+prerequisites:
+- Install NodeJS 
+- install Visual Studio Code (Or another IDE)
+
+In order to create the package.json, open Terminal in Visual Studio Code Menu and type the command below:
+
+```
+npm init
+```
+
+Install Cypress:
+
+```
+npm install cypress --save-dev
+```
+
+In order to open Cypress Debug Window type:
+(If first time it will install)
+
+```
+npx cypress open
+```
+
+Installing Typescript:
+
+```
+npm install --save-dev typescript
+```
+
 - What is supported?
 - What is not supported?
 
