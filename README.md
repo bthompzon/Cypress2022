@@ -34,6 +34,12 @@ Installing Typescript:
 npm install --save-dev typescript
 ```
 
+Install Rimraf which takes care of cleaning before building
+
+```
+npm install --save-dev rimraf
+```
+
 - What is supported?
 - What is not supported?
 
