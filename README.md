@@ -10,22 +10,22 @@ Latest Cypress Learnings 2022
 - install Visual Studio Code (Or another IDE)
 
 **Step 1:**
-Initialize the project and create the package.json file:
+Initialize the project and create the package.json file
 ```
 npm init
 ```
 **Step 2:**
-Install Cypress:
+Install Cypress
 ```
 npm install cypress --save-dev
 ```
 **Step 3:**
-Open the Cypress Debug Window (If first time it will install itself):
+Open the Cypress Debug Window (If first time it will install itself)
 ```
 npx cypress open
 ```
 **Step 4:**
-Install Typescript:
+Install Typescript
 ```
 npm install --save-dev typescript
 ```
