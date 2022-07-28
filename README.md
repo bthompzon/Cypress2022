@@ -5,7 +5,7 @@ Latest Cypress Learnings 2022
 
 ## Installation
 
-** prerequisites: **
+**prerequisites:**
 - Install NodeJS 
 - install Visual Studio Code (Or another IDE)
 
