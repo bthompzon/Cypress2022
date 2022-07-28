@@ -10,36 +10,30 @@ Latest Cypress Learnings 2022
 - install Visual Studio Code (Or another IDE)
 
 **Step 1:**
-In order to create the package.json file, open the terminal in Visual Studio Code and type the following command:
+Initialize the project and create the package.json file:
 ```
 npm init
 ```
-
+**Step 2:**
 Install Cypress:
-
 ```
 npm install cypress --save-dev
 ```
-
-In order to open Cypress Debug Window type:
-(If first time it will install)
-
+**Step 3:**
+Open the Cypress Debug Window (If first time it will install itself):
 ```
 npx cypress open
 ```
-
-Installing Typescript:
-
+**Step 4:**
+Install Typescript:
 ```
 npm install --save-dev typescript
 ```
-
+**Step 5:**
 Install Rimraf which takes care of cleaning before building
-
 ```
 npm install --save-dev rimraf
 ```
-
 
 -----------------------------------------------------------------------------
 
