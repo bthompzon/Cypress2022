@@ -59,3 +59,10 @@ npm install --save-dev rimraf
 - Running headless
 - Snapshot testing (DOM Comparison) - DONE
 - Visual testing - DONE
+
+Questions for Joel:
+
+npm run cy.open - If I make a change and save will it update in cypress test window?
+BaseUrl will it not automatically load this before tests
+How can I run say a login sequence for all tests whichout added it to all test scripts?
+
