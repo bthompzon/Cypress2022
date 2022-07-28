@@ -1,9 +1,9 @@
 # Cypress2022
 Latest Cypress Learning 2022
 
-Learning Objectives:
 
-- How to install?
+
+## Installation
 
 prerequisites:
 - Install NodeJS 
@@ -39,6 +39,11 @@ Install Rimraf which takes care of cleaning before building
 ```
 npm install --save-dev rimraf
 ```
+
+
+-----------------------------------------------------------------------------
+
+## Learning Objectives
 
 - What is supported?
 - What is not supported?
