@@ -1,15 +1,15 @@
 # Cypress2022
-Latest Cypress Learning 2022
+Latest Cypress Learnings 2022
 
 
 
 ## Installation
 
-prerequisites:
+** prerequisites: **
 - Install NodeJS 
 - install Visual Studio Code (Or another IDE)
 
-In order to create the package.json, open Terminal in Visual Studio Code Menu and type the command below:
+In order to create the package.json file, open the terminal in Visual Studio Code and type the following command:
 
 ```
 npm init
