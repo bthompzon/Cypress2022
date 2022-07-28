@@ -1,9 +1,9 @@
 describe('Account Tests', () => {
-  it('User can login', () => {
-    cy.visit(Cypress.config().baseUrl);
-    cy.get('[data-test="username"]').type('standard_user');
-    cy.get('#password').type('secret_sauce');
-    cy.get('input.submit-button[type="submit"]').click();
-    cy.get('span.title').should('have.text', 'Products');
-  })
-})
+
+
+  it('User can login/logout', () => {
+    cy.get('button#react-burger-menu-btn').click();
+    cy.get('a#logout_sidebar_link').contains('Logout').click();
+    cy.get('input#login-button[type="submit"]').should('has.value', 'Login');
+  });
+});

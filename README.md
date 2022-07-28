@@ -35,6 +35,17 @@ Install Rimraf which takes care of cleaning before building
 npm install --save-dev rimraf
 ```
 
+## Running tests
+
+Run all tests (Note: The below command is setup in the package.json)
+```
+npm run cy.open
+```
+Run all tests headless
+```
+npm run testheadless
+```
+
 -----------------------------------------------------------------------------
 
 ## Learning Objectives

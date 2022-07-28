@@ -23,3 +23,17 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('login', () => {
+    cy.visit(Cypress.config().baseUrl);
+    cy.get('[data-test="username"]').type('standard_user');
+    cy.get('#password').type('secret_sauce');
+    cy.get('input.submit-button[type="submit"]').click();
+    cy.get('span.title').should('have.text', 'Products');
+});
+
+declare namespace Cypress {
+    interface Chainable {
+      login(): Chainable<Element>;
+    }
+  }

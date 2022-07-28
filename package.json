@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run clean && npx tsc",
     "cy.open": "npm run build && npx cypress open --browser chrome --e2e",
-    "clean": "rimraf ./dist/"
+    "clean": "rimraf ./dist/",
+    "testheadless": "npm run build && npx cypress run"
   },
   "repository": {
     "type": "git",
